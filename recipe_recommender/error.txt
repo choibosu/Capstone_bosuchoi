@@ -1,0 +1,17 @@
+$ heroku logs --tail
+2020-06-25T23:29:50.672823+00:00 app[api]: Initial release by user bosuchoi@gmail.com
+2020-06-25T23:29:50.672823+00:00 app[api]: Release v1 created by user bosuchoi@gmail.com
+2020-06-25T23:29:50.859096+00:00 app[api]: Release v2 created by user bosuchoi@gmail.com
+2020-06-25T23:29:50.859096+00:00 app[api]: Enable Logplex by user bosuchoi@gmail.com
+2020-06-25T23:30:07.000000+00:00 app[api]: Build started by user bosuchoi@gmail.com
+2020-06-25T23:30:35.513997+00:00 app[api]: Release v3 created by user bosuchoi@gmail.com
+2020-06-25T23:30:35.513997+00:00 app[api]: Deploy ac75c9ef by user bosuchoi@gmail.com
+2020-06-25T23:30:43.000000+00:00 app[api]: Build succeeded
+2020-06-25T23:31:08.829819+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=milestone-bosu.herokuapp.com request_id=626fb4a4-82bc-4eaa-8470-7069c7c6d2a9 fwd="99.129.103.103" dyno= connect= service= status=503 bytes= protocol=https
+2020-06-25T23:31:09.572933+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=milestone-bosu.herokuapp.com request_id=dddd74d6-8380-45cd-acb9-d81d4be9395d fwd="99.129.103.103" dyno= connect= service= status=503 bytes= protocol=https
+2020-06-25T23:31:36.812559+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=milestone-bosu.herokuapp.com request_id=09449af3-1e55-4eb7-b476-d06dab6ac176 fwd="99.129.103.103" dyno= connect= service= status=503 bytes= protocol=https
+2020-06-25T23:31:37.794445+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=milestone-bosu.herokuapp.com request_id=4edc591a-14b9-40d2-b0c3-fa6a01d5a28d fwd="99.129.103.103" dyno= connect= service= status=503 bytes= protocol=https
+2020-06-25T23:32:47.449843+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=milestone-bosu.herokuapp.com request_id=1109a036-8ebd-4843-84d2-2a8811e4cd61 fwd="99.129.103.103" dyno= connect= service= status=503 bytes= protocol=https
+2020-06-25T23:32:47.800749+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=milestone-bosu.herokuapp.com request_id=5dc860e3-5017-4dfa-b017-fb4db1a68bee fwd="99.129.103.103" dyno= connect= service= status=503 bytes= protocol=https
+2020-06-25T23:33:08.015464+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=milestone-bosu.herokuapp.com request_id=7b83ee7a-801a-4694-8b1e-10cc69d01be0 fwd="99.129.103.103" dyno= connect= service= status=503 bytes= protocol=https
+2020-06-25T23:33:08.702606+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=milestone-bosu.herokuapp.com request_id=281ee3b7-3d9b-4599-b05d-f73306fb6811 fwd="99.129.103.103" dyno= connect= service= status=503 bytes= protocol=https

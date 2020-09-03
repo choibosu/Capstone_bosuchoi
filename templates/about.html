@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link
+    href="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.css"
+    rel="stylesheet" type="text/css">
+  <link
+    href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.3.4.min.css"
+    rel="stylesheet" type="text/css">
+
+  <script src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+  <script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.3.4.min.js"></script>
+  
+
+  {{ script2|safe }}
+  {{ script|safe }}
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Recipe Recommender</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+
+<div class="container">
+  <h2>Motivation of the Project</h2>
+  <p>As the COVID-19 is not contained in the US, the interest in recipes has been increased whereas the interest in restaurants has been decreased. We can see the daily numbers of confirmed cases and deaths in the US, and Google search query trends in each figure below. This recipe recommendation app uses about 57,000 recipes from "allrecipes.com". It is an ingredient-based personalized recommendation system which takes user's ingredient list, preferred ingredients, and dietary restriction. The main purpose of this recommendation is to recommend recipes which use more of the ingredients currently possessed and use less extra ingredients to buy.</p>          
+</div>
+
+
+<div class=page>
+{{ div2|safe}}
+</div>
+
+<div class=page>
+{{ div|safe }}
+</div>
+
+
+</body>
+
+</html>
